@@ -17,6 +17,10 @@ public class PracticaGit08 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Practica 8 de Git");
+        System.out.println("suma(1,2) = "+ suma(1,2));
     }
     
+    static int suma(int x, int y){
+        return x+y;
+    }
 }
